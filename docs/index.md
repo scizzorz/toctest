@@ -1,5 +1,4 @@
 # sec 1
-{:.no_toc}
 
 <div id="toc-sidebar" markdown="block">
 
