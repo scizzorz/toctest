@@ -54,9 +54,11 @@ h4, h5, h6 { font-size: 1.0em; }
   }
 }
 
-@media (max-width: 76em) {
+@media (max-width: 985px) {
   .container {
     margin-left: 14em;
+    /*
     margin-right: 14em;
+    */
   }
 }
