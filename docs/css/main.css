@@ -70,9 +70,9 @@ h4, h5, h6 { font-size: 1.0em; }
 
   #markdown-toc {
     position: absolute;
-    left: 2em;
+    left: 1em;
     top: 2em;
-    right: 2em;
+    right: 1em;
     bottom: 2em;
   }
 }
