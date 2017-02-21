@@ -21,9 +21,12 @@ h3 { font-size: 1.25em; }
 h4, h5, h6 { font-size: 1.0em; }
 
 #toc-sidebar {
+  padding: 1em;
   position: relative;
   top: 0;
   left: 0;
+  background-color: #F7F7F7;
+  border: 1px solid #E7E7E7;
   min-height: 100%;
   overflow-y: auto;
 }
@@ -60,10 +63,10 @@ h4, h5, h6 { font-size: 1.0em; }
   }
 
   #toc-sidebar {
+    padding: 0;
     position: fixed;
     width: 14em;
-    border-right: 1px solid #E7E7E7;
-    background-color: #F7F7F7;
+    border-width: 0 1px 0 0;
     box-shadow: #CCC 0 0 1em;
   }
 
