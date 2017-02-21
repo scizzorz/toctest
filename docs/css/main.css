@@ -43,13 +43,18 @@ h4, h5, h6 { font-size: 1.0em; }
 }
 
 @media (min-width: 550px) {
+  .container {
+    width: 550px;
+    padding: 2em;
+  }
+
   #toc-sidebar {
     position: fixed;
     width: 12em;
   }
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 76em) {
   .container {
     margin-left: 14em;
     margin-right: 14em;
