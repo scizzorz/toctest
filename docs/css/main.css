@@ -34,17 +34,17 @@ h4, h5, h6 { font-size: 1.0em; }
   list-style-type: none;
 }
 
-#markdown-toc ul li a {
+#markdown-toc li a {
   color: #333;
   text-decoration: none;
   font-weight: bold;
 }
 
-#markdown-toc ul ul a {
+#markdown-toc ul a {
   font-weight: normal;
 }
 
-#markdown-toc ul li a:hover {
+#markdown-toc li a:hover {
   text-decoration: underline;
 }
 
