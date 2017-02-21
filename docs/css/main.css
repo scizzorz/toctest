@@ -64,7 +64,8 @@ h4, h5, h6 { font-size: 1.0em; }
   #toc-sidebar {
     position: fixed;
     width: 12em;
-    border-right: 1px solid #EEE;
+    border-right: 1px solid #FFF;
+    background-color: #F7F7F7;
   }
 
   #markdown-toc {
