@@ -1,7 +1,7 @@
 # sec 1
 {:.no_toc}
 
-<div class="toc-sidebar" markdown="block">
+<div id="toc-sidebar" markdown="block">
 
 * This text is garbage
 {:toc}
