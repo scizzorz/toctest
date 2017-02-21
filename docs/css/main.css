@@ -52,7 +52,7 @@ h4, h5, h6 { font-size: 1.0em; }
 }
 
 #markdown-toc li a:hover {
-  text-decoration: underline;
+  color: hsl(210, 75%, 50%);
 }
 
 @media (min-width: 550px) {
