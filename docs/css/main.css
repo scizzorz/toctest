@@ -55,6 +55,10 @@ h4, h5, h6 { font-size: 1.0em; }
   text-decoration: underline;
 }
 
+#markdown-toc ul ul {
+  display: none;
+}
+
 @media (min-width: 550px) {
   .container {
     width: 550px;
