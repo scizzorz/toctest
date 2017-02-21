@@ -34,14 +34,6 @@ h4, h5, h6 { font-size: 1.0em; }
   list-style-type: none;
 }
 
-#markdown-toc {
-  position: absolute;
-  left: 1em;
-  top: 1em;
-  right: 1em;
-  bottom: 1em;
-}
-
 #markdown-toc ul li a {
   color: #333;
   text-decoration: none;
@@ -65,6 +57,14 @@ h4, h5, h6 { font-size: 1.0em; }
   #toc-sidebar {
     position: fixed;
     width: 12em;
+  }
+
+  #markdown-toc {
+    position: absolute;
+    left: 1em;
+    top: 1em;
+    right: 1em;
+    bottom: 1em;
   }
 }
 
