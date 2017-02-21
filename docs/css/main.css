@@ -22,7 +22,6 @@ h4, h5, h6 { font-size: 1.0em; }
 
 #toc-sidebar {
   position: relative;
-  border-right: 1px solid #EEE;
   top: 0;
   left: 0;
   min-height: 100%;
@@ -57,6 +56,7 @@ h4, h5, h6 { font-size: 1.0em; }
   #toc-sidebar {
     position: fixed;
     width: 12em;
+    border-right: 1px solid #EEE;
   }
 
   #markdown-toc {
