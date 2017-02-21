@@ -22,6 +22,7 @@ h4, h5, h6 { font-size: 1.0em; }
 
 #toc-sidebar {
   padding: 1em;
+  margin-bottom: 1em;
   position: relative;
   top: 0;
   left: 0;
