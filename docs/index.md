@@ -1,3 +1,4 @@
+{::options toc_levels=1..2 /}
 # sec 1
 {:.no_toc}
 
