@@ -26,7 +26,7 @@ h4, h5, h6 { font-size: 1.0em; }
   left: 0;
   min-height: 100%;
   overflow-y: auto;
-  padding: 1em;
+  padding: 1em 2em 1em 3em;
 }
 
 #toc-sidebar ul {
@@ -70,10 +70,6 @@ h4, h5, h6 { font-size: 1.0em; }
 
   #markdown-toc {
     position: absolute;
-    left: 1em;
-    top: 2em;
-    right: 1em;
-    bottom: 2em;
   }
 }
 
