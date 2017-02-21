@@ -20,7 +20,7 @@ h2 { font-size: 1.5em; }
 h3 { font-size: 1.25em; }
 h4, h5, h6 { font-size: 1.0em; }
 
-#markdown-toc {
+#toc-sidebar {
   position: relative;
   border-right: 1px solid #EEE;
   top: 0;
@@ -28,8 +28,16 @@ h4, h5, h6 { font-size: 1.0em; }
   min-height: 100%;
 }
 
+#markdown-toc {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
 @media (min-width: 550px) {
-  #markdown-toc {
+  #toc-sidebar {
     position: fixed;
     width: 180px;
   }
