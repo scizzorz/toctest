@@ -19,3 +19,22 @@ h1 { font-size: 2.0em; }
 h2 { font-size: 1.5em; }
 h3 { font-size: 1.25em; }
 h4, h5, h6 { font-size: 1.0em; }
+
+#markdown-toc {
+  position: relative;
+  border-right: 1px solid #EEE;
+}
+
+@media (min-width: 550px) {
+  #markdown-toc {
+    position: fixed;
+    width: 180px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .container {
+    margin-left: 180px;
+    margin-right: 180px;
+  }
+}
